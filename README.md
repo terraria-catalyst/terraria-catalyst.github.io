@@ -1,1 +1,3 @@
-# terraria-catalyst.github.io
+# Catalyst Team Homepage
+
+Web 0.0
