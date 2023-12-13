@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "scripts": {
+        "start": "http-server src/ -a localhost -p 80 -c-1"
+    },
+    "dependencies": {
+        "http-server": "^14.1.1"
+    }
+}

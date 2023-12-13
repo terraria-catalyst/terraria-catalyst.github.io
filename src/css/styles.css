@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
+:root {
+  color-scheme: light dark;
+
+  --branding-background-gradient-start: #4da5f5;
+  --branding-background-gradient-end: #3a92fe;
+  --branding-background-gradient: linear-gradient(
+    135deg,
+    var(--branding-background-gradient-start),
+    var(--branding-background-gradient-end)
+  );
+
+  --branding-text-color: #ffffff;
+
+  @media (prefers-color-scheme: dark) {
+  }
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.4;
+  color: CanvasText;
+  background: Canvas;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.sticky-header {
+  position: fixed;
+  top: 0;
+  /*background: linear-gradient(180deg, Canvas 75%, rgba(0, 0, 0, 0) 100%);*/
+  background: Canvas;
+  width: 100%;
+  z-index: 100;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.icon-title {
+  display: flex;
+  align-items: center;
+}
+
+.icon-title-icon img {
+  height: 50px;
+  width: 50px;
+}
+
+.icon-title-title h1 {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons button {
+  color: AccentColorText;
+  background: AccentColor;
+  font-weight: 900;
+  font-family: inherit;
+}
+
+.buttons button p {
+  margin: 0;
+  padding: 0;
+}
+
+.mods-button,
+.support-button {
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.title-card {
+  background: var(--branding-background-gradient);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.title-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: var(--branding-text-color);
+}
+
+.title-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  padding: 5em;
+}
+
+.title-div-1 {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.title-div-2 {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.title-header {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+.title-body {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
