@@ -49,6 +49,10 @@ body {
   background: Canvas;
   width: 100%;
   z-index: 100;
+
+  @media (max-width: 900px) {
+    position: fixed;
+  }
 }
 
 .header-content {
@@ -172,6 +176,11 @@ body {
 main {
   margin-left: 5em;
   margin-right: 5em;
+
+  @media (max-width: 600px) {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 }
 
 .content {
